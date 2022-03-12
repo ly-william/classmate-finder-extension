@@ -1,0 +1,16 @@
+{
+  "name": "Class Number Importer",
+  "description": "Used for importing class numbers from SPIRE to the Classmate Finder at UMass.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_security_policy": {
+    "extension_pages": "src-elem 'self' 'https://apis.google.com' 'https://www.gstatic.com' 'https://www.googleapis.com' 'https://securetoken.googleapis.com'" 
+  }
+}
