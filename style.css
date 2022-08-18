@@ -4,6 +4,7 @@
 
 .table {
   width: 250px;
+  margin-bottom: 0px;
 }
 
 .sign-in {
@@ -12,4 +13,18 @@
 
 .center {
   text-align: center;
+}
+
+.text {
+  font-size: small;
+  font-weight: 400;
+}
+
+.disclaimer {
+  font-size: 11.5px;
+}
+
+.icon {
+  margin-bottom: 7px;
+  margin-left: 2.5px;
 }
